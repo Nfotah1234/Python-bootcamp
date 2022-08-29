@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  position: relative;
+  background: rgb(235, 235, 235);
+  height: 100vh;
+  width: 100%;
+  padding: 5px;
+ 
+}
+ img{
+  width: 250px;
+  height: 300px;
+ }
+.main{
+  position: relative;
+  display: grid;
+  grid-template-rows: 50% 1fr;
+  padding: 10px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.imgbx{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.imgbx .left{
+  display: block;
+  align-self: flex-start;
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+.imgbx .left h1,h2{
+  color: #000;
+  font-family: 'tahoma';
+  letter-spacing: 4px;
+}
+.imgbx .left h1{
+  font-weight: normal;
+}
+
+.imgbx .left > div{
+  height: 7px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: rgb(255, 136, 0);
+}
+
+.imgbx .left h4{
+  font-weight: normal;
+  font-size: 20px;
+  font-family: 'tahoma';
+  margin-top: -10px;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+.skills .gauche{
+  display: block;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.skills .gauche .contact{
+  height: 150px;
+  width: 100%;
+}
+
+.skills .gauche .contact > div{
+  height: 5px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: rgb(255, 136, 0);
+}
+
+.skills .gauche .contact .infos .inf{
+margin: 10px;
+ padding-top: 10px;
+ width: 100%;
+}

@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  position: relative;
+  background: rgb(235, 235, 235);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  padding: 5px;
+  align-items: center;
+ 
+}
+.container{
+  position: relative;
+  display: grid;
+  width: 80%;
+  grid-gap: 5px;
+  height: 100%;
+  margin-left: 10%;
+  text-align: center;
+  grid-template-areas:"a a a a"
+                      "b c c c"
+                      "b c c c"
+                      "d c c c"
+                      "d e e e"
+                      "d e e e"
+                      "f f f g"
+                      "h h h h";
+                                       
+
+}
+
+#header{
+  background: blue;
+  grid-area: a;
+}
+
+#hero{
+  background: red;
+  grid-area: b;
+}
+#main-content{
+  background: yellow;
+  grid-area: c;
+}
+#sidebar{
+  background: magenta;
+  grid-area: d;
+}
+#extra{
+  background: orange;
+  grid-area: e;
+}
+#related-img{
+  background: orangered;
+  grid-area: f;
+}
+
+#related{
+  background: green;
+  grid-area: g;
+}
+#post{
+  background: black;
+  grid-area: h;
+}
+#footer{
+  background: rgb(5, 158, 247);
+  grid-area: h;
+}
+

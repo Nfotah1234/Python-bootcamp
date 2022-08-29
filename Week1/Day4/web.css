@@ -1,0 +1,26 @@
+.main1{
+
+    background-image: url("picture.jpg.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ya{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    align-self: center;
+}
+
+.align{
+background-color: aliceblue;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.sector{
+
+     background-color: blue;
+}
